@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    /*Fonte*/
+    display: flex;
+    /*Usa o flexbox*/
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(111, 0, 255);
+}
+
+.container {
+    background-color: beige;
+    padding: 20px;/*Espaçamento interno*/
+    border-radius: 10px;
+    box-shadow: 4px 8px;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.imagem {
+    border-radius: 15px;
+    margin-bottom: 10px
+    ;
+}
